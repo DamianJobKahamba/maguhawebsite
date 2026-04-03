@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- =============================================
+       EDIT: Change the title to the teacher's name
+  ============================================= -->
+  <title>Mr. Maguha Nimilwa Maguha | Physics Teacher</title>
+  <meta name="description" content="Part-time physics teacher offering tutoring, exam prep, and online lessons. Making physics simple and practical." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Phosphor Icons (lightweight icon set) -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR — sticky, collapses on scroll
+  ============================================================ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <!-- EDIT: Replace with teacher's initials or short name -->
+      <a class="nav-logo" href="#home">
+        <span class="logo-mark">MNM</span>
+        <span class="logo-text">Mr. Maguha N Maguha</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#stats">Achievements</a></li>
+        <li><a href="#videos">Lessons</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="home">
+    <!-- Physics-themed decorative particles -->
+    <div class="hero-particles" aria-hidden="true">
+      <div class="particle p1"></div>
+      <div class="particle p2"></div>
+      <div class="particle p3"></div>
+      <div class="orbit orbit1"></div>
+      <div class="orbit orbit2"></div>
+    </div>
+
+    <div class="hero-container">
+      <!-- Profile photo column -->
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring">
+          <!-- EDIT: Replace 'placeholder-profile.jpg' with the actual photo path -->
+          <img
+            src="Maguha1.jpeg"
+            alt="Mr Maguha Nimilwa — Physics Teacher"
+            class="hero-photo"
+          />
+        </div>
+        <div class="hero-badge">
+          <i class="ph ph-atom"></i>
+          <span>Physics Expert</span>
+        </div>
+      </div>
+
+      <!-- Text column -->
+      <div class="hero-text">
+        <p class="hero-eyebrow">Welcome — I am</p>
+        <!-- EDIT: Replace with teacher's actual name -->
+        <h1 class="hero-name">Mr. Maguha Nimilwa Maguha</h1>
+        <p class="hero-title">Physics Teacher<br />
+          <em>Making Physics Simple &amp; Practical</em>
+        </p>
+        <!-- EDIT: Replace with teacher's actual short intro -->
+        <p class="hero-intro">
+          Passionate educator with over <strong>6 years</strong> of experience helping secondary
+          school and A-level students unlock the beauty of physics from mechanics to quantum
+          concepts through clear explanations, real-world examples, and patient guidance.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            <i class="ph ph-chat-circle-dots"></i> Book a Session
+          </a>
+          <a href="#videos" class="btn btn-outline">
+            <i class="ph ph-youtube-logo"></i> Watch Lessons
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <i class="ph ph-arrow-down"></i>
+    </a>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Get to Know Me</p>
+        <h2 class="section-title">About <span class="gold">Mr. Maguha N Maguha</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Photo / decorative -->
+        <div class="about-visual">
+          <div class="about-img-wrap">
+            <!-- EDIT: Replace with actual secondary or casual photo -->
+            <img
+              src="Maguha2.jpeg"
+              alt="About Mr. Maguha Nimilwa Maguha"
+            />
+            <div class="about-exp-badge">
+              <span class="exp-number">6+</span>
+              <span class="exp-label">Years Teaching</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Bio content -->
+        <div class="about-content">
+          <!-- EDIT: Replace all placeholder text with real biography -->
+          <p class="about-bio">
+            I hold a Bachelors Degree in Medicine. My
+            journey into teaching began with a simple belief: <em>every student can grasp
+            physics</em> when it is taught with patience, clarity, and real-world relevance.
+          </p>
+          <p class="about-bio">
+            I currently teach at Ordinary Level and Advanced level classes, covering topics from Newtonian
+            mechanics and thermodynamics to electricity, waves, and introductory quantum
+            physics. Outside of school, I run private tutoring sessions and produce free
+            educational content on YouTube.
+          </p>
+
+          <!-- Quick facts grid -->
+          <div class="about-facts">
+            <div class="fact-item">
+              <i class="ph ph-graduation-cap"></i>
+              <div>
+                <strong>Levels Taught</strong>
+                <span>O-Level, A-Level, Beginner University</span>
+              </div>
+            </div>
+            <div class="fact-item">
+              <i class="ph ph-chalkboard-teacher"></i>
+              <div>
+                <strong>Teaching Style</strong>
+                <span>Conceptual clarity + problem-solving practice</span>
+              </div>
+            </div>
+            <div class="fact-item">
+              <i class="ph ph-heart"></i>
+              <div>
+                <strong>Passion</strong>
+                <span>Turning physics fear into physics confidence</span>
+              </div>
+            </div>
+            <div class="fact-item">
+              <i class="ph ph-globe"></i>
+              <div>
+                <strong>Location</strong>
+                <!-- EDIT: Replace with actual location -->
+                <span>Dar es Salaam, Tanzania</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary mt-1">
+            <i class="ph ph-envelope-simple"></i> Get in Touch
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+  ============================================================ -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What I Offer</p>
+        <h2 class="section-title">Services &amp; <span class="gold">Support</span></h2>
+        <p class="section-subtitle">
+          Tailored academic support designed to build confidence, sharpen skills,
+          and achieve excellent results in physics.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Each card: icon, title, description -->
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-user"></i></div>
+          <h3>One-on-One Tutoring</h3>
+          <p>Personalised sessions focused entirely on your weak areas and learning pace. Ideal for targeted improvement.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-users-three"></i></div>
+          <h3>Group Classes</h3>
+          <p>Small-group lessons that combine collaborative learning with structured curriculum coverage.</p>
+        </div>
+
+        <div class="service-card featured-card">
+          <div class="service-icon"><i class="ph ph-exam"></i></div>
+          <h3>Exam Preparation</h3>
+          <p>Focused exam-strategy sessions, past paper walkthroughs, and marking-scheme analysis to maximise grades.</p>
+          <span class="card-badge">Most Popular</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-book-open-text"></i></div>
+          <h3>Revision Support</h3>
+          <p>Structured revision schedules, summary notes, and intensive revision weeks before examinations.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-pencil-simple-line"></i></div>
+          <h3>Assignment Help</h3>
+          <p>Step-by-step guidance on homework and coursework — understanding the process, not just the answer.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-flask"></i></div>
+          <h3>Practical Guidance</h3>
+          <p>Help with physics practicals: experimental design, data collection, analysis, and lab report writing.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-video-camera"></i></div>
+          <h3>Online Lessons</h3>
+          <p>Live virtual sessions via Zoom or Google Meet — flexible scheduling for students anywhere.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-youtube-logo"></i></div>
+          <h3>YouTube Content</h3>
+          <p>Free educational physics videos on my YouTube channel covering full topics with worked examples.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATISTICS / TRUST SECTION
+  ============================================================ -->
+  <section class="stats-section" id="stats">
+    <div class="stats-bg-pattern" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section-header light">
+        <p class="section-eyebrow">By the Numbers</p>
+        <h2 class="section-title">Achievements &amp; <span class="gold">Impact</span></h2>
+      </div>
+
+      <div class="stats-grid">
+        <!-- EDIT: Replace numbers with real or more accurate placeholders -->
+        <div class="stat-card" data-target="450">
+          <div class="stat-icon"><i class="ph ph-student"></i></div>
+          <div class="stat-number counter" data-target="450">0</div>
+          <div class="stat-label">Students Taught</div>
+        </div>
+        <div class="stat-card" data-target="8">
+          <div class="stat-icon"><i class="ph ph-calendar-blank"></i></div>
+          <div class="stat-number counter" data-target="8">0</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-card" data-target="120">
+          <div class="stat-icon"><i class="ph ph-video"></i></div>
+          <div class="stat-number counter" data-target="120">0</div>
+          <div class="stat-label">Video Lessons</div>
+        </div>
+        <div class="stat-card" data-target="200">
+          <div class="stat-icon"><i class="ph ph-files"></i></div>
+          <div class="stat-number counter" data-target="200">0</div>
+          <div class="stat-label">Resources Shared</div>
+        </div>
+        <div class="stat-card" data-target="96">
+          <div class="stat-icon"><i class="ph ph-smiley"></i></div>
+          <div class="stat-number counter" data-target="96">0</div>
+          <div class="stat-label">% Satisfaction Rate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       VIDEO LESSONS SECTION
+  ============================================================ -->
+  <section class="section videos-section" id="videos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">YouTube Channel</p>
+        <h2 class="section-title">Free Video <span class="gold">Lessons</span></h2>
+        <p class="section-subtitle">
+          Explore my growing library of physics lessons — available free on YouTube.
+          Subscribe to stay updated with new content.
+        </p>
+      </div>
+
+      <div class="videos-grid">
+        <!-- VIDEO CARD 1 -->
+        <!-- EDIT: Replace src with actual YouTube embed URL -->
+        <div class="video-card">
+          <div class="video-embed-wrap">
+            <!-- Replace VIDEO_ID_1 with actual YouTube video ID -->
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="Newton's Laws of Motion — Full Lesson"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">Mechanics</span>
+            <h3>Newton's Laws of Motion</h3>
+            <p>A complete walkthrough of all three laws with real-life examples and worked problems.</p>
+          </div>
+        </div>
+
+        <!-- VIDEO CARD 2 -->
+        <div class="video-card">
+          <div class="video-embed-wrap">
+            <!-- EDIT: Replace VIDEO_ID_2 with actual YouTube video ID -->
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="Electricity & Circuits Explained"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">Electricity</span>
+            <h3>Electricity &amp; Circuits Explained</h3>
+            <p>From Ohm's Law to series and parallel circuits — everything you need for your exams.</p>
+          </div>
+        </div>
+
+        <!-- VIDEO CARD 3 -->
+        <div class="video-card">
+          <div class="video-embed-wrap">
+            <!-- EDIT: Replace VIDEO_ID_3 with actual YouTube video ID -->
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="Waves & Optics — A-Level Revision"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">Waves</span>
+            <h3>Waves &amp; Optics — A-Level Revision</h3>
+            <p>Transverse vs. longitudinal waves, reflection, refraction, diffraction, and interference.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-btn">
+        <!-- EDIT: Replace # with actual YouTube channel URL -->
+        <a href="https://youtube.com/@YourChannelHere" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="ph ph-youtube-logo"></i> Visit My Channel
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       NOTES / RESOURCES SECTION
+  ============================================================ -->
+  <section class="section resources-section" id="resources">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Free Downloads</p>
+        <h2 class="section-title">Study <span class="gold">Resources</span></h2>
+        <p class="section-subtitle">
+          Carefully prepared notes, formula sheets, and revision packs — available for free download.
+        </p>
+      </div>
+
+      <div class="resources-grid">
+        <!-- EDIT: Update file names, descriptions, and href links -->
+
+        <div class="resource-card">
+          <div class="resource-icon"><i class="ph ph-file-text"></i></div>
+          <div class="resource-info">
+            <span class="resource-tag">O-Level</span>
+            <h3>Forces &amp; Motion Notes</h3>
+            <p>Comprehensive notes covering all mechanics topics — 24 pages with diagrams.</p>
+            <a href="#" class="btn btn-sm btn-primary">
+              <i class="ph ph-download-simple"></i> Download PDF
+            </a>
+          </div>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-icon"><i class="ph ph-function"></i></div>
+          <div class="resource-info">
+            <span class="resource-tag">All Levels</span>
+            <h3>Physics Formula Sheet</h3>
+            <p>Quick-reference formula card covering mechanics, electricity, waves, and thermodynamics.</p>
+            <a href="#" class="btn btn-sm btn-primary">
+              <i class="ph ph-download-simple"></i> Download PDF
+            </a>
+          </div>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-icon"><i class="ph ph-clock-countdown"></i></div>
+          <div class="resource-info">
+            <span class="resource-tag">A-Level</span>
+            <h3>Exam Revision Pack</h3>
+            <p>Past exam questions, mark schemes, and tips for A-level physics — 40-page pack.</p>
+            <a href="#" class="btn btn-sm btn-primary">
+              <i class="ph ph-download-simple"></i> Download PDF
+            </a>
+          </div>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-icon"><i class="ph ph-lightning"></i></div>
+          <div class="resource-info">
+            <span class="resource-tag">O-Level</span>
+            <h3>Electricity &amp; Circuits Notes</h3>
+            <p>Complete coverage of current, voltage, resistance, and circuit analysis with worked examples.</p>
+            <a href="#" class="btn btn-sm btn-primary">
+              <i class="ph ph-download-simple"></i> Download PDF
+            </a>
+          </div>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-icon"><i class="ph ph-waves"></i></div>
+          <div class="resource-info">
+            <span class="resource-tag">A-Level</span>
+            <h3>Waves &amp; Optics Summary</h3>
+            <p>Key concepts, definitions, and diagrams for waves — perfect for last-minute revision.</p>
+            <a href="#" class="btn btn-sm btn-primary">
+              <i class="ph ph-download-simple"></i> Download PDF
+            </a>
+          </div>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-icon"><i class="ph ph-lightbulb"></i></div>
+          <div class="resource-info">
+            <span class="resource-tag">Study Tips</span>
+            <h3>How to Study Physics Effectively</h3>
+            <p>My personal guide: study techniques, time management, and exam strategies that actually work.</p>
+            <a href="#" class="btn btn-sm btn-primary">
+              <i class="ph ph-download-simple"></i> Download PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+  ============================================================ -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Student Voices</p>
+        <h2 class="section-title">What They <span class="gold">Say</span></h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- EDIT: Replace with real testimonials -->
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="ph ph-quotes"></i></div>
+          <p class="testimonial-text">
+            "Dr. Okonkwo completely changed how I see physics. I went from failing to getting a B+ in
+            my A-level exams. His patience and clear explanations are unmatched."
+          </p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/50x50/c9a84c/0a0f2e?text=AM" alt="Amara M." />
+            <div>
+              <strong>Amara M.</strong>
+              <span>A-Level Student, Form 6</span>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="ph ph-quotes"></i></div>
+          <p class="testimonial-text">
+            "My daughter was struggling with mechanics and after just 4 sessions with Dr. Okonkwo, her
+            confidence improved dramatically. Highly recommend to any parent."
+          </p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/50x50/c9a84c/0a0f2e?text=JK" alt="Mrs. Janet K." />
+            <div>
+              <strong>Mrs. Janet K.</strong>
+              <span>Parent of O-Level Student</span>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card featured-testimonial">
+          <div class="quote-icon"><i class="ph ph-quotes"></i></div>
+          <p class="testimonial-text">
+            "The YouTube videos are a lifesaver! I watch them before every exam. He explains
+            concepts so clearly — better than my school teacher, honestly. Free resources too!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/50x50/c9a84c/0a0f2e?text=TN" alt="Tafara N." />
+            <div>
+              <strong>Tafara N.</strong>
+              <span>YouTube Subscriber, O-Level</span>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon"><i class="ph ph-quotes"></i></div>
+          <p class="testimonial-text">
+            "I joined the online group class and it was worth every shilling. The exam prep
+            sessions are structured, practical, and very effective. Got an A in physics!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/50x50/c9a84c/0a0f2e?text=DO" alt="David O." />
+            <div>
+              <strong>David O.</strong>
+              <span>A-Level Graduate</span>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       INTERACTIVE QUIZ SECTION — "Physics Quiz of the Day"
+  ============================================================ -->
+  <section class="section quiz-section" id="quiz">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Test Yourself</p>
+        <h2 class="section-title">Physics <span class="gold">Quiz</span> of the Day</h2>
+        <p class="section-subtitle">
+          A fresh physics challenge — can you get it right? Try the question below!
+        </p>
+      </div>
+
+      <div class="quiz-card">
+        <div class="quiz-header">
+          <span class="quiz-level" id="quizLevel">⚡ Intermediate</span>
+          <span class="quiz-topic" id="quizTopic">Topic: Forces</span>
+        </div>
+
+        <p class="quiz-question" id="quizQuestion">
+          Loading question…
+        </p>
+
+        <div class="quiz-options" id="quizOptions">
+          <!-- Options injected by JS -->
+        </div>
+
+        <div class="quiz-feedback" id="quizFeedback" aria-live="polite"></div>
+
+        <div class="quiz-actions">
+          <button class="btn btn-primary" id="nextQuizBtn" style="display:none;">
+            <i class="ph ph-arrow-right"></i> Next Question
+          </button>
+          <button class="btn btn-outline" id="skipQuizBtn">
+            <i class="ph ph-shuffle"></i> Different Question
+          </button>
+        </div>
+
+        <div class="quiz-score">
+          Score: <span id="quizScore">0</span> / <span id="quizTotal">0</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Reach Out</p>
+        <h2 class="section-title">Get in <span class="gold">Touch</span></h2>
+        <p class="section-subtitle">
+          Ready to improve your physics? Send a message and I will get back to you within 24 hours.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Left: contact info -->
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="ph ph-phone"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <!-- EDIT: Replace with actual phone number -->
+              <span><a href="tel:+255679446831">+255 679 446 831</a></span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon whatsapp-icon"><i class="ph ph-whatsapp-logo"></i></div>
+            <div>
+              <strong>WhatsApp</strong>
+              <!-- EDIT: Replace phone number in the URL -->
+              <span><a href="https://wa.me/255679446831?text=Hello%20Dr.%20Okonkwo%2C%20I'd%20like%20to%20book%20a%20session." target="_blank" rel="noopener">Message on WhatsApp</a></span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="ph ph-envelope-simple"></i></div>
+            <div>
+              <strong>Email</strong>
+              <!-- EDIT: Replace with actual email address -->
+              <span><a href="mailto:maguhanimilwa@gmail.com">maguhanimilwa@gmail.com</a></span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="ph ph-map-pin"></i></div>
+            <div>
+              <strong>Location</strong>
+              <!-- EDIT: Replace with actual location -->
+              <span>Dar es Salaam, Tanzania</span>
+            </div>
+          </div>
+
+          <!-- Social links -->
+          <div class="social-links">
+            <!-- EDIT: Replace # with actual social URLs -->
+            <a href="https://youtube.com/@YourChannelHere" target="_blank" rel="noopener" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            <a href="https://facebook.com/YourPageHere" target="_blank" rel="noopener" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a>
+            <a href="https://twitter.com/YourHandleHere" target="_blank" rel="noopener" aria-label="Twitter / X"><i class="ph ph-x-logo"></i></a>
+            <a href="https://instagram.com/YourHandleHere" target="_blank" rel="noopener" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+            <a href="https://linkedin.com/in/YourProfileHere" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+          </div>
+        </div>
+
+        <!-- Right: contact form -->
+        <div class="contact-form-wrap">
+          <!-- NOTE: This form needs a backend or service (e.g. Formspree) to actually send emails.
+               EDIT: If using Formspree, change action="https://formspree.io/f/YOUR_FORM_ID" -->
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactName">Full Name *</label>
+                <input type="text" id="contactName" name="name" placeholder="Your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="contactEmail">Email Address *</label>
+                <input type="email" id="contactEmail" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contactPhone">Phone / WhatsApp</label>
+              <input type="tel" id="contactPhone" name="phone" placeholder="+255 700 000 000" />
+            </div>
+            <div class="form-group">
+              <label for="contactSubject">Subject *</label>
+              <select id="contactSubject" name="subject" required>
+                <option value="">— Select a subject —</option>
+                <option value="tutoring">Physics</option>
+                <option value="group">Chemistry</option>
+                <option value="exam">Biology</option>              
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Message *</label>
+              <textarea id="contactMessage" name="message" rows="5" placeholder="Tell me what you need help with, your level, and any other details…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="ph ph-paper-plane-tilt"></i> Send Message
+            </button>
+            <p class="form-note" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-mark">MNM</span>
+            <!-- EDIT: Update name -->
+            <span>Maguha Nimilwa Maguha</span>
+          </div>
+          <p>Physics Teacher. Making physics simple, practical, and accessible for every student.</p>
+          <div class="social-links">
+            <a href="https://youtube.com/@YourChannelHere" target="_blank" rel="noopener" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            <a href="https://facebook.com/YourPageHere" target="_blank" rel="noopener" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a>
+            <a href="https://twitter.com/YourHandleHere" target="_blank" rel="noopener" aria-label="Twitter / X"><i class="ph ph-x-logo"></i></a>
+            <a href="https://instagram.com/YourHandleHere" target="_blank" rel="noopener" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick links -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#videos">Video Lessons</a></li>
+            <li><a href="#resources">Free Resources</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services quick links -->
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">1-on-1 Tutoring</a></li>
+            <li><a href="#services">Group Classes</a></li>
+            <li><a href="#services">Exam Preparation</a></li>
+            <li><a href="#services">Online Lessons</a></li>
+            <li><a href="#services">Assignment Help</a></li>
+            <li><a href="#quiz">Physics Quiz</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact summary -->
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <!-- EDIT: Update contact details -->
+          <p><i class="ph ph-phone"></i> +255 679 446 831</p>
+          <p><i class="ph ph-envelope-simple"></i> maguhanimilwa@gmail.com.com</p>
+          <p><i class="ph ph-map-pin"></i> Dar es Salaam, Tanzania</p>
+          <a href="https://wa.me/255679446831" target="_blank" rel="noopener" class="btn btn-sm btn-whatsapp">
+            <i class="ph ph-whatsapp-logo"></i> WhatsApp Me
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <!-- EDIT: Update name and year if needed -->
+        <p>&copy; <span id="year"></span> Product of Wilberforce Technologies. All rights reserved</p>
+        <p class="footer-tagline">Designed with <i class="ph ph-heart-straight ph-fill"></i> for physics education.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       FLOATING WHATSAPP BUTTON
+       EDIT: Replace phone number in the URL below
+  ============================================================ -->
+  <a
+    href="https://wa.me/255700000000?text=Hello%20Dr.%20Okonkwo%2C%20I%20saw%20your%20website%20and%20I'm%20interested%20in%20your%20physics%20lessons."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener"
+    aria-label="Chat on WhatsApp"
+  >
+    <i class="ph ph-whatsapp-logo"></i>
+    <span class="wa-tooltip">Chat on WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
